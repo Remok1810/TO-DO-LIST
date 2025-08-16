@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+*{
+   
+    color: black;
+  
+}
+ .container{
+     background-color: black;
+   border: 2px solid;
+   height: 100vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+ .box{
+text-align: center;
+ border: 2px solid;
+ padding-bottom: 40px;
+  padding-left: 20px;
+   padding-right: 20px;
+   background-color: white;
+   border-radius: 10px;
+
+
+ }
+ 
+
+
+</style>
+<body>
+    
+<div class="container">
+    <div class="box">
+           <h2> TO-DO-LIST</h2>
+        <div class="details"> 
+            <input id="inpu" type="text" placeholder="Add new task" >
+            <select id="option" >
+                <option>completed</option>
+                <option>pending</option>
+
+            </select>
+
+            <button id="addtask">Add Task</button>
+             <button id ="del" >Delete All</button>
+            
+
+        </div>
+
+        <ul id="list" > </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./script.js"> </script>
+
+</body>
+</html>
